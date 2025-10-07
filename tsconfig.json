@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    // Cible & libs
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+
+    // Module & résolution (Vite/Bun)
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "moduleDetection": "force",
+
+    // TS + Vite + Bun
+    "jsx": "preserve",
+    "types": ["vite/client", "bun-types"],
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+
+    // Déclarations (la génération est gérée par vite-plugin-dts)
+    "declaration": true,
+    "declarationDir": "dist",
+    "noEmit": true,
+
+    // Qualité / stricte
+    "strict": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    // Pratiques lib
+    "useDefineForClassFields": true,
+    "allowJs": false,
+
+    // Optionnels (laisse à false si tu prototypes)
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noPropertyAccessFromIndexSignature": false
+  },
+  "include": ["src", "env.d.ts"]
+}

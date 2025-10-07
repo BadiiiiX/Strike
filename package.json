@@ -1,0 +1,17 @@
+{
+  "name": "strike",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "bun@1.1.0",
+  "scripts": {
+    "build": "bun run -w @badiiix/strike-core build",
+    "clean": "bun run -w @badiiix/strike-core clean",
+    "typecheck": "bun run -w @badiiix/strike-core typecheck",
+    "dev:vanilla": "cd ../aaaaaaaaaaaaaaaaaaaaaaa/examples/vanilla && bunx vite",
+    "release:dry": "npm publish --workspace @badiiix/strike-core --dry-run",
+    "release": "npm publish --workspace @badiiix/strike-core --access public"
+  },
+  "version": ""
+}

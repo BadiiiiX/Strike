@@ -1,0 +1,54 @@
+# dependencies (bun install)
+node_modules
+
+# output
+out
+dist
+*.tgz
+
+# code coverage
+coverage
+*.lcov
+
+# logs
+logs
+_.log
+report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store
+
+# Project exclude paths
+/packages/core/src/actor/actor.js
+/packages/core/src/actor/spritesheet.js
+/packages/core/src/render/canvas2d.js
+/packages/core/src/render/image.js
+/packages/core/src/render/renderer.js
+/packages/core/src/surface/surface.js
+/packages/core/src/timing/actions.js
+/packages/core/src/timing/ticker.js
+/packages/core/src/types/core.js
+/packages/core/src/types/events.js
+/packages/core/src/types/options.js
+/packages/core/src/view/view.js
+/packages/core/src/view/viewManager.js
+/packages/core/src/viewport/cageViewport.js
+/packages/core/src/viewport/cameraViewport.js
+/packages/core/src/viewport/viewport.js
+/packages/core/src/index.js
+bun.lock
