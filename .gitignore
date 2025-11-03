@@ -52,3 +52,4 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 /packages/core/src/viewport/viewport.js
 /packages/core/src/index.js
 bun.lock
+package-lock.json
